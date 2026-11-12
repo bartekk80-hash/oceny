@@ -26,7 +26,15 @@ Domena cyklicznych ocen okresowych analityków, które wystawiam (kilka w roku, 
 - Oceniam pracę na podstawie faktów. Nie wyciągaj wniosków o osobie z braku danych; brak dowodu to pytanie do mnie.
 - Dane osobowe ocenianych i treść ocen nie wychodzą poza `oceny/` tego repozytorium: nie trafiają na tablicę koordynacji, do innych repozytoriów, plików przeglądów w `~/.cache/ai-agents/review/` ani do zewnętrznych usług (Slack, Docs, Artifact).
 - Materiał zastrzeżony Prostej Hipoteki (zob. `GIT/eximee-alior-hipo`, ADR-0006): Claude go nie czyta. Gdy ocena wymaga jego treści, sesja Qwen pisze podsumowanie bez materiału zastrzeżonego, a ono trafia do `dowody.md`.
-- Wcześniejsze karty (PDF) leżą w `~/Pobrane`. Czytaj je tylko na moją prośbę, np. by porównać postęp osoby.
+- Wcześniejsze oceny: indeks w `oceny/archiwum.md`, treść w ich katalogach. Oryginały to strony wiki Consdaty (intranet, strona "<rrrr-mm> Kozłowski Bartosz ocenia <osoba>" pod stroną osoby w jej Chapterze); wiki czytaj tokenem z pamięci agenta. Przed nową oceną przeczytaj archiwum: styl, poziom szczegółu i poprzednie cele tej samej osoby.
+- Ostatnia karta osoby: sprawdź, czy cele krótkoterminowe z niej zostały osiągnięte, i napisz to w `dowody.md`.
+
+## Mój styl ocen (z wcześniejszych kart)
+
+- Ciężar oceny w tabeli Feedback; kratki i Wartości bywają niewypełnione, więc pytaj, czy tym razem je wypełniamy.
+- Po jednym konkretnym celu krótkoterminowym i długoterminowym, związanym z systemem, w którym osoba pracuje.
+- "Co poszło dobrze" z konkretnymi przykładami (narzędzia, inicjatywy), "Co poprawić" sformułowane jako naturalny następny krok.
+- Skrócona opinia ciepła i bezpośrednia, kontekst stażu, na końcu jednozdaniowa rekomendacja wprost (np. dalsza współpraca, droga do poziomu Regular).
 - Tablica koordynacji dostaje tylko wiersz "Ocena okresowa" z terminem, bez nazwiska.
 
 ## Synchronizacja
