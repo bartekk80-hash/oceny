@@ -20,6 +20,8 @@ Domena cyklicznych ocen okresowych analityków, które wystawiam (kilka w roku, 
 3. Wypełnij `karta.md`: przy każdym zaznaczonym punkcie odnośnik do dowodu; punkt bez dowodu oznacz jako "do potwierdzenia przez Bartosza", nie zaznaczaj go.
 4. Tabela "Feedback" i "Skrócona opinia" to szkic do mojej redakcji: konkretne przykłady, cele mierzalne.
 5. Wpisz pytania do mnie na końcu `stan-pracy.md` jako listę numerowaną, z rekomendowaną odpowiedzią.
+6. Kartę na wiki przenoszę ja, ręcznie. Agent na wiki nic nie wpisuje; przygotowuje `karta.html` do przeklejenia (zob. "Doświadczenia z ocen").
+7. Po moim przeniesieniu: porównaj stronę wiki z `karta.md`, wynik w `porownanie-wiki.md` w katalogu oceny. Oryginałem oceny jest wiki; `karta.md` nie synchronizuj.
 
 ## Zasady
 
@@ -36,6 +38,32 @@ Domena cyklicznych ocen okresowych analityków, które wystawiam (kilka w roku, 
 - "Co poszło dobrze" z konkretnymi przykładami (narzędzia, inicjatywy), "Co poprawić" sformułowane jako naturalny następny krok.
 - Skrócona opinia ciepła i bezpośrednia, kontekst stażu, na końcu jednozdaniowa rekomendacja wprost (np. dalsza współpraca, droga do poziomu Regular).
 - Tablica koordynacji dostaje tylko wiersz "Ocena okresowa" z terminem, bez nazwiska.
+
+## Doświadczenia z ocen
+
+Wnioski z poprzednich sesji (ocena 2026-11, koniec okresu próbnego).
+
+Na starcie:
+- Zaszeregowanie sprawdź na wiki, zanim przyjmiesz poziom: strona "Stanowiska - zestawienie" (pageId 143327645), kolumna "Zaszeregowanie". R1 to pierwszy stopień Regulara (moje wyjaśnienie). Raz przyjęty z rozmowy poziom okazał się nieaktualny.
+- Ustal cel oceny: ocena okresowa czy koniec okresu próbnego. Przy okresie próbnym na podstawie tej i innych ocen PO prowadzi rozmowę i decyduje o dalszej współpracy, więc skrócona opinia kończy się rekomendacją w tej sprawie.
+- Strona oceny na wiki bywa założona przez kadry wcześniej, jako pusty formularz pod stroną osoby w Chapterze; jej tytuł może mieć odwróconą kolejność nazwisk. Znajdziesz ją wyszukiwaniem CQL po nazwisku osoby.
+
+Źródła dowodów:
+- Wklejony czat ze Slacka: nie ma dat dziennych; zapisz kolejność, daty oznacz "do potwierdzenia". Nie przepisuj numerów telefonów, danych testowych, treści komunikatów ani stron banku; imiona osób z banku zamieniaj na role w tekstach, które idą na wiki.
+- Historia wersji stron wiki (`/rest/experimental/content/<id>/version`, wersje historyczne `?status=historical&version=<n>`) pokazuje, kto co dopisał. Dobry dowód wkładu we wspólny materiał.
+- Poziom samodzielności przypisany przez agenta to propozycja do mojego potwierdzenia.
+- Nie przesądzaj autorstwa (np. skryptów), którego nie potwierdziłem; opisz, co osoba robi.
+
+Interpretacja:
+- Prośba o wsparcie w dobrym momencie (np. dołączenie mnie do spotkania) to plus, nie słabość.
+- Pojedyncza pomyłka poprawiona od razu i niepowtórzona nie jest podstawą do "Co poprawić".
+- Gdy w dowodach nie ma przykładu do poprawy, zaproponuj "Co poprawić" jako następny krok w stronę wyższego poziomu, zaczepiony w konkretnym zdarzeniu; podaj 2-3 warianty, wybieram ja.
+- Nie przesądzaj, kto przedstawi wyniki pracy na zewnątrz (np. bankowi), jeśli tego nie wiem; pisz tylko, co osoba wykonała.
+
+Wynik do przeniesienia:
+- `karta.html` w katalogu oceny: przy każdym punkcie zaznacz / na szaro / puste, przy każdym komentarzu i komórce Wartości i Feedback przycisk "Kopiuj". Tekst do kopiowania bez odnośników `[D..]`; uwagi "do potwierdzenia przez Bartosza" widoczne, ale oznaczone jako niewklejane. Skrypt generujący trzymaj poza katalogiem oceny (scratchpad).
+- W `karta.md` rozdziel w każdej sekcji "Komentarz:" (idzie na wiki) i "Do potwierdzenia przez Bartosza:" (zostaje lokalnie).
+- Na wiki zaznaczam punkty szerzej niż dowody w `dowody.md` i nie używam szarego. Przy porównaniu sprawdź spójność: komentarz z wzmianką "na szaro" przy punkcie niezaznaczonym, punkt zaznaczony jako spełniony, a jednocześnie będący celem lub "Co poprawić".
 
 ## Synchronizacja
 
